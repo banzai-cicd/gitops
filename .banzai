@@ -1,0 +1,19 @@
+@Library('Banzai@develop') _
+banzai {
+    gitOps = [
+        autoDeploy: [
+            /develop/ : 'dev'
+        ],
+        envs: [
+            'dev' : [
+                watchers: 'banzai-watchers',
+            ],
+            'qa' : [
+                approvers: 'banzai-approvers',
+                watchers: 'banzai-watchers'
+            ]
+        ]
+    ]
+}
+
+// skipVersionUpdating: /develop/,

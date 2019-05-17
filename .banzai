@@ -1,5 +1,6 @@
 @Library('Banzai@gitops') _
 banzai {
+    sshCreds = ['server-ssh-creds-jenkins-service', 'git-ssh-creds-jenkins-service']
     gitOps = [
         autoDeploy: [
             /develop/ : 'dev'

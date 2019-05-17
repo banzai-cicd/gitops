@@ -1,4 +1,4 @@
-@Library('Banzai@develop') _
+@Library('Banzai@gitops') _
 banzai {
     gitOps = [
         autoDeploy: [

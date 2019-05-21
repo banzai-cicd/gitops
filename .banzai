@@ -6,12 +6,10 @@ banzai {
             /develop/ : 'dev'
         ],
         envs: [
-            'dev' : [
-                watchers: 'banzai-watchers',
-            ],
+            'dev' : [:],
             'qa' : [
-                approvers: 'banzai-approvers',
-                watchers: 'banzai-watchers'
+                approvers: ['212589146'],
+                watchers: ['212589146']
             ]
         ]
     ]

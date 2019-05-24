@@ -1,7 +1,8 @@
-latest: 0.0.1-SNAPSHOT
+latest: 1.0.0-SNAPSHOT
 versions:
 - 1.1.0-SNAPSHOT:
     some: meta
-- 1.0.0-SNAPSHOT
+- 1.0.0-SNAPSHOT:
+    some: meta
 - 0.0.1-SNAPSHOT:
     whoa: meta

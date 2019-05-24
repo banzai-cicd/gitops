@@ -2,6 +2,5 @@ latest: 1.0.0-SNAPSHOT
 versions:
 - 1.1.0-SNAPSHOT:
     some: meta
-- 1.0.0-SNAPSHOT:
-    different: meta
+- 1.0.0-SNAPSHOT
 - 0.0.1-SNAPSHOT

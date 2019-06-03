@@ -1,4 +1,4 @@
-@Library('Banzai@gitops') _
+@Library('Banzai@typed-config') _
 banzai {
     gitOps = [
         autoDeploy: [

@@ -1,6 +1,6 @@
-@Library('Banzai@gitops') _
-banzai {
-    gitOps = [
+@Library('Banzai@typed-config') _
+banzai([
+    gitOps: [
         autoDeploy: [
             /develop/ : 'dev'
         ],
@@ -12,6 +12,6 @@ banzai {
             ]
         ]
     ]
-}
+])
 // sshCreds = ['server-ssh-creds-jenkins-service', 'git-ssh-creds-jenkins-service']
 // skipVersionUpdating: /develop/,

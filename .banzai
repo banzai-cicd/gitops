@@ -1,4 +1,4 @@
-@Library('Banzai@typed-config') _
+@Library('Banzai@notifications-refactor') _
 banzai([
     gitOps: [
         autoDeploy: [

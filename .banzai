@@ -1,4 +1,5 @@
-@Library('Banzai@notifications-refactor') _
+library 'Banzai@gitops'
+
 banzai([
     gitOps: [
         autoDeploy: [

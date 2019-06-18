@@ -11,6 +11,9 @@ banzai([
                 approvers: ['212589146'],
                 watchers: ['212589146']
             ]
+        ],
+        inputCfg: [
+            rollbackNumberOfChoices: 3
         ]
     ]
 ])

@@ -1,4 +1,4 @@
-library 'Banzai@gitops'
+library 'Banzai@develop'
 
 banzai([
     gitOps: [

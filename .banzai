@@ -10,9 +10,11 @@ banzai([
     ],
     notifications: [
         email: [
-            individuals: [
-                simon: [/GITOPS:(APPROVAL|APPROVED|ABORTED)/]
-            ]
+            /.*/ : [
+                individuals: [
+                    simon: [/GITOPS:(APPROVAL|APPROVED|ABORTED)/]
+                ]
+            ] 
         ]
     ],
     gitOps: [

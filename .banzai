@@ -1,6 +1,20 @@
-library 'Banzai@develop'
+library 'Banzai@gitops-notifications'
 
 banzai([
+    email: [
+        /.*/ : [
+            addresses: [
+                simon: 'simon.townsend1@ge.com'
+            ]
+        ]
+    ],
+    notifications: [
+        email: [
+            individuals: [
+                simon: [/GITOPS:(APPROVAL|APPROVED|ABORTED)/]
+            ]
+        ]
+    ],
     gitOps: [
         autoDeploy: [
             /develop/ : 'dev'
@@ -17,5 +31,3 @@ banzai([
         ]
     ]
 ])
-// sshCreds = ['server-ssh-creds-jenkins-service', 'git-ssh-creds-jenkins-service']
-// skipVersionUpdating: /develop/,

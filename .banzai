@@ -1,4 +1,4 @@
-library 'BanzaiOS@gitops-notifications'
+library 'BanzaiOS@develop'
 
 banzai([
     email: [

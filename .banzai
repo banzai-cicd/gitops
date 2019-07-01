@@ -22,8 +22,7 @@ banzai([
         envs: [
             'dev' : [:],
             'qa' : [
-                approvers: ['212589146'],
-                watchers: ['212589146']
+                approverIds: ['212589146']
             ]
         ],
         inputCfg: [

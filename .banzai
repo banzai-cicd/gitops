@@ -2,10 +2,8 @@ library 'BanzaiOS@gitops-notifications'
 
 banzai([
     email: [
-        /.*/ : [
-            addresses: [
-                simon: 'simon.townsend1@ge.com'
-            ]
+        addresses: [
+            simon: 'simon.townsend1@ge.com'
         ]
     ],
     notifications: [

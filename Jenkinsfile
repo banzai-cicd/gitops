@@ -1,16 +1,16 @@
-library 'BanzaiOS@develop'
+library 'BanzaiCICD@develop'
 
 banzai([
     email: [
         addresses: [
-            simon: 'simon.townsend1@ge.com'
+            banzai: 'banzaicicd@gmail.com'
         ]
     ],
     notifications: [
         email: [
             /.*/ : [
                 individuals: [
-                    simon: [/GITOPS:(APPROVAL|APPROVED|ABORTED)/]
+                    banzai: [/GITOPS:(APPROVAL|APPROVED|ABORTED)/]
                 ]
             ] 
         ]
@@ -22,7 +22,7 @@ banzai([
         envs: [
             'dev' : [:],
             'qa' : [
-                approverIds: ['212589146']
+                approverIds: ['someid']
             ]
         ],
         inputCfg: [

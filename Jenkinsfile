@@ -1,6 +1,7 @@
 library 'BanzaiCICD@develop'
 
 banzai([
+    sshCreds: ['git-ssh'],
     email: [
         addresses: [
             banzai: 'banzaicicd@gmail.com'
@@ -27,8 +28,6 @@ banzai([
         ],
         inputCfg: [
             rollbackNumberOfChoices: 3
-        ],
-        gitUser: 'banzai',
-        gitEmail: 'banzaicicd@gmail.com'
+        ]
     ]
 ])

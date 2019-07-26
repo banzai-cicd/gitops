@@ -27,6 +27,8 @@ banzai([
         ],
         inputCfg: [
             rollbackNumberOfChoices: 3
-        ]
+        ],
+        gitUser: 'banzai',
+        gitEmail: 'banzaicicd@gmail.com'
     ]
 ])

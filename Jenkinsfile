@@ -22,7 +22,7 @@ banzai([
         envs: [
             'dev' : [:],
             'qa' : [
-                approverIds: ['someid']
+                approverIds: ['user']
             ]
         ],
         inputCfg: [

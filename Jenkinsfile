@@ -1,7 +1,7 @@
 library 'BanzaiCICD@develop'
 
 banzai([
-    sshCreds: ['git-ssh'],
+    sshCreds: ['banzai-git-ssh'],
     email: [
         addresses: [
             banzai: 'banzaicicd@gmail.com'

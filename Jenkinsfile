@@ -17,6 +17,8 @@ banzai([
         ]
     ],
     gitOps: [
+        gitUser: 'banzai',
+        gitEmail: 'banzaicicd@gmail.com',
         autoDeploy: [
             /develop/ : 'dev'
         ],

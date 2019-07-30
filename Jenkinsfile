@@ -2,6 +2,9 @@ library 'BanzaiCICD@develop'
 
 banzai([
     sshCreds: ['banzai-git-ssh'],
+    cleanWorkspace: [ // helps avoid git conflicts
+        pre: true
+    ],
     email: [
         addresses: [
             banzai: 'banzaicicd@gmail.com'

@@ -28,7 +28,7 @@ banzai([
         envs: [
             'dev' : [:],
             'qa' : [
-                approverIds: ['user']
+                approverIds: ['admin']
             ]
         ],
         inputCfg: [
